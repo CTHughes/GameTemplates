@@ -231,4 +231,4 @@ def main():
 # See https://docs.python.org/3.4/library/__main__.html for explanation
 import doctest
 if __name__ == "__main__":
-    doctest.testmod()
+    main()
