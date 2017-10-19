@@ -178,7 +178,7 @@ def menu(exits):
         # Display menu
         print_menu(exits)
         # Read player's input
-        player_choice = raw_input("Which way would you like to go? ")
+        player_choice = input("Which way would you like to go? ")
         # Normalise the input
         player_choice = normalise_input(player_choice)
 
