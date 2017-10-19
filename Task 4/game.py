@@ -187,9 +187,9 @@ def menu(exits):
         if is_valid_exit(exits, player_choice) == True:
             return player_choice
         else:
-            print
+            print()
             print("Invalid input. Please try again.")
-            print
+            print()
 
 def move(exits, direction):
     """This function returns the room into which the player will move if, from a
